@@ -1,8 +1,10 @@
 # Artscii
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/artscii`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to your new Artscii!  This is a very small, simple gem that I created for two reasons.  The first reason is to learn what is involved in the process of creating a gem.  The second reason is that I wanted to be able to present the gem creation process as a lightning talk to my fellow students at the Turing School of Software and Design.
 
-TODO: Delete this and the text above, and describe your gem
+Artscii has a simple purpose - to print out some ascii art pictures.  There are three pictures: an owl, a frog and a fish.  
+
+I attempted to run RSpec tests on the output of the gem, but ran out of time before I had to give the lightning talk.  I hope to go back and make the tests pass, as well as add more images to print out.
 
 ## Installation
 
@@ -22,7 +24,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To print out the animals, simply type 'Artscii.fish', 'Artscii.owl' or 'Artscii.frog'.
 
 ## Development
 
@@ -32,7 +34,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/artscii.
+Bug reports and pull requests are welcome on GitHub at https://github.com/earl-stephens/artscii.
 
 ## License
 
